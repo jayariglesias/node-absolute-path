@@ -1,0 +1,28 @@
+{
+  "name": "node-absolute-path",
+  "version": "1.0.0",
+  "description": "Absolute Path",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayariglesias/node-absolute-path.git"
+  },
+  "keywords": [
+    "node",
+    "absolute",
+    "path",
+    "relative",
+    "path",
+    "include",
+    "require"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jayariglesias/node-absolute-path/issues"
+  },
+  "homepage": "https://github.com/jayariglesias/node-absolute-path#readme"
+}
