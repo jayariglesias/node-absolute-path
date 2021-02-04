@@ -1,4 +1,4 @@
-## NODE JS ABSOLUTE PATH v1
+## NodeJS Absolute Path v1
 
 This library can simplify the require paths in your node project. Instead of using relative paths like ../../../../controller/sample, you can write controller/sample. You won't need to calculate how many levels of directory you have to go up before accessing the file.
 
