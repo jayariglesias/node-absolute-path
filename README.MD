@@ -21,9 +21,9 @@ $ npm install node-absolute-path --save
 ## Example
 ```javascript
 require('node-absolute-path');
-const express = require('express');
-const bodyParser = require('body-parser');
-const mongoose = require('mongoose');
+const express = include('express');
+const bodyParser = include('body-parser');
+const mongoose = include('mongoose');
 const api = include('controller');
 const app = express();
 
