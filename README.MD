@@ -46,7 +46,7 @@ Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | 11 ✔ |
 
 ## License
 
-<img height="100" width="100" src="https://raw.githubusercontent.com/jayariglesias/jayariglesias/main/name.png" />
+<img height="50" width="50" src="https://raw.githubusercontent.com/jayariglesias/jayariglesias/main/name.png" />
 
 
 
