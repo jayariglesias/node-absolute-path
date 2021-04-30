@@ -1,4 +1,15 @@
-global.include = (x) => {
-    const dir = __basedir.replace('node_modules/node-absolute-path','')
-    return require(`${dir}/${x}`);
+const fs = require('fs')
+
+global.include = (param) => {
+    let replaced = __dirname.replace('/node_modules/node-absolute-path', '');
+    let directory = param;
+    let ext = ['', '.ts', '.tsx', '.js', '.jsx'];
+
+    for (let i = 0; i < ext.length; i++) {
+        if (fs.existsSync(`${replaced}/${param}${ext[i]}`)) {
+            directory = `${replaced}/${param}`;
+        }
+    };
+
+    return require(directory);
 }
