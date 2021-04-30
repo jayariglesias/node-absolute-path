@@ -4,10 +4,10 @@ This library can simplify the require paths in your node project. Instead of usi
 
 ```javascript
 // Use this:
-const sample = require('controller/sample');
+const sample = include('controller/sample');
 
 // Instead of:
-const sample = include('../../../../controller/sample');
+const sample = require('../../../../controller/sample');
 ```
 
 ## Installation
