@@ -1,6 +1,6 @@
 {
   "name": "node-absolute-path",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Absolute Path",
   "main": "index.js",
   "scripts": {
