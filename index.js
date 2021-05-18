@@ -1,7 +1,9 @@
 const fs = require('fs')
 
 global.include = (param) => {
-    let replaced = __dirname.replace('/node_modules/node-absolute-path', '');
+    let path = __dirname;
+    path = __dirname.replace(/\\/g, "/")
+    let replaced = path.replace('/node_modules/node-absolute-path', '');
     let directory = param;
     let ext = ['', '.ts', '.tsx', '.js', '.jsx','.html','.css','.png','.jpg'];
 
